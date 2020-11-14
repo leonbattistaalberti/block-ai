@@ -6,14 +6,25 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__left">
-        <Link to="/home">
-          <p>Home</p>
-        </Link>
-        <p>Categories</p>
+        <p>
+          {" "}
+          <Link to="/home" className="navbar__navLink">
+            Home
+          </Link>
+        </p>
+        <p>
+          <Link to="/categories" className="navbar__navLink">
+            Categories
+          </Link>
+        </p>
       </div>
       <div className="navbar__right">
-        <p>Track Order</p>
-        <p>Manage Orders</p>
+        <p>
+          <Link className="navbar__navLink">Track Order</Link>
+        </p>
+        <p>
+          <Link className="navbar__navLink">Manage Orders</Link>
+        </p>
       </div>
     </nav>
   );

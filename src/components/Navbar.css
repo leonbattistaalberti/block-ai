@@ -15,4 +15,12 @@
 }
 .navbar__left > p, .navbar__right > p  {
     margin: 10px;
+    
+    
+}
+.navbar__navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: large;
 }
