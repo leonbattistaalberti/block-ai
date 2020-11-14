@@ -9,6 +9,7 @@
 
 }
 
+
 .signupForm__form {
     display: flex;
     flex-direction: column;
@@ -28,15 +29,17 @@
     margin: 10px;
     justify-self: start;
     margin-left: 0;
+    color: white
 }
 .signupForm__form > input {
-    border: none;
+    border: 2px solid white;
+    background-color: #4AC365;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
-   
-    
-
+}
+::placeholder {
+    color: white
 }
 
 .signupForm__form > input:focus {

@@ -14,7 +14,13 @@ const SignUpForm = () => {
           <input type="text" placeholder="Email" />
           <p> Password</p>
           <input type="text" placeholder="Password" />
-          <button className="signupForm__validate">Validate</button>
+          <button className="signupForm__validate">
+            <span>Validate</span>
+          </button>
+          <p>
+            Already have an account? <span>Login</span>
+          </p>
+          <p>Skip for Now</p>
         </div>
       </div>
     </div>
