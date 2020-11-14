@@ -20,7 +20,6 @@ const SignUpForm = () => {
           <p>
             Already have an account? <span>Login</span>
           </p>
-          <p>Skip for Now</p>
         </div>
       </div>
     </div>
