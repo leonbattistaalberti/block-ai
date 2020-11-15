@@ -1,0 +1,14 @@
+.orderManagement{
+    background-color:#F5F5F5;
+    height: 100vh;
+    width: 80%;
+    margin: auto
+}
+.orderManagement__container {
+width: 75%;
+height: 100vh;
+/* background-color: aqua; */
+margin: auto;
+display: flex;
+
+}

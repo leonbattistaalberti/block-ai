@@ -1,0 +1,59 @@
+.orderCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 50%;
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: ivory;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.orderCard> img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.orderCard > h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.orderCard__footer {
+    /* background-color: bisque; */
+    width: 100%;
+    height: 60px;
+}
+
+.orderCard__footer__top, .orderCard__footer__bottom{
+    /* background-color: blue; */
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.orderCard__footer__top > p {
+    font-size: x-small;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.orderCard__footer__bottom > button {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: #5AC973;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.orderCard__footer__bottom > button > span {
+    font-size: x-small;
+}

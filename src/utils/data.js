@@ -2,7 +2,8 @@ export const data = [
   {
     id: "123",
     commodity: "potatoes",
-    img: "",
+    img:
+      "https://assets.bonappetit.com/photos/5d7284758d926f0009df5cfc/5:4/w_3165,h_2532,c_limit/Basically-Gojuchang-Chicken-Potato.jpg",
     status: "",
     category: "",
     shippedFrom: "Lombardy, Italy",
@@ -19,7 +20,7 @@ export const data = [
     onTimeDeliveryStatus: true,
     quality: [],
     validationStatus: true,
-    PO: "",
+    po: "121334563",
     arrivingToday: true,
   },
   {
@@ -34,7 +35,6 @@ export const data = [
     valueOfOrder: "£9,0000",
     volume: "100 tonnes",
     supplier: "Grechen Corp.ltd",
-
     expiryDate: "18/11/20",
     targetSellingDate: "16/11/20",
     productCertification: "Organic",
@@ -42,7 +42,7 @@ export const data = [
     onTimeDeliveryStatus: true,
     quality: [],
     validationStatus: true,
-    PO: "",
+    po: "4547525456",
     arrivingToday: false,
   },
   {
@@ -57,7 +57,6 @@ export const data = [
     valueOfOrder: "£9,0000",
     volume: "100 tonnes",
     supplier: "Grechen Corp.ltd",
-
     expiryDate: "18/11/20",
     targetSellingDate: "16/11/20",
     productCertification: "Organic",
@@ -65,7 +64,7 @@ export const data = [
     onTimeDeliveryStatus: true,
     quality: [],
     validationStatus: true,
-    PO: "",
+    po: "2547896541",
     arrivingToday: false,
   },
 ];
