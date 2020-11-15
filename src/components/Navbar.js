@@ -23,7 +23,9 @@ const Navbar = () => {
           <Link className="navbar__navLink">Track Order</Link>
         </p>
         <p>
-          <Link className="navbar__navLink">Manage Orders</Link>
+          <Link to="/manageorders" className="navbar__navLink">
+            Manage Orders
+          </Link>
         </p>
       </div>
     </nav>

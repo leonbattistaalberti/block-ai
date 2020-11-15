@@ -1,6 +1,27 @@
-.home {
+.home, .orderDetailsPage {
     background-color:#F5F5F5;
     height: 100vh;
     width: 80%;
     margin: auto
+}
+
+.orderDetailsCard {
+    width: 50%;
+    height: 80%;
+    background-color: #F5F5F5;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orderDetailsCard__detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(256, 256, 256, 0.7);
+    text-transform: capitalize;
+    
 }

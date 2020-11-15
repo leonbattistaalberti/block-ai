@@ -9,8 +9,10 @@ const OrderDetails = () => {
   return (
     <div className="orderDetails">
       <h1 className="orderDetails__title">Orders arriving today</h1>{" "}
-      <p className="orderDetails__orderNumber">{todaysArrival.id}</p>
-      <Link to={`/${todaysArrival.id}`}>
+      <p className="orderDetails__orderNumber">
+        Order Number: {todaysArrival.id}
+      </p>
+      <Link to={`/orderdetails`}>
         <button className="orderDetails__orderDetailsButton">
           Click here for details
         </button>

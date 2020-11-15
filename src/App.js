@@ -2,9 +2,9 @@ import "./App.css";
 import SignUp from "./pages/SignUp";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import OrderDetailsPage from "./pages/OrderDetailsPage";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { data } from "./utils/data";
-import OrderDetails from "./pages/OrderDetails";
 
 function App() {
   function getProduct(id) {
@@ -21,9 +21,9 @@ function App() {
         <Switch>
           <Route exact={true} path="/" component={Home} />
           <Route
-            path="/:id"
+            path="/orderdetails"
             render={(routerProps) => (
-              <OrderDetails
+              <OrderDetailsPage
                 productId={routerProps.match.params.id}
                 productDetails={getProduct(routerProps.match.params.id)}
               />
