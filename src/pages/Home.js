@@ -1,6 +1,12 @@
 import React from "react";
+import OrderDetails from "../components/OrderDetails";
 import "./Home.css";
 
-export const Home = () => {
-  return <div></div>;
+const Home = () => {
+  return (
+    <div className="home">
+      <OrderDetails />
+    </div>
+  );
 };
+export default Home;

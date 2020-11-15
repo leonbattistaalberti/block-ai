@@ -1,4 +1,4 @@
-export default data = [
+export const data = [
   {
     id: "123",
     commodity: "",
@@ -19,6 +19,7 @@ export default data = [
     quality: [],
     validationStatus: true,
     PO: "",
+    arrivingToday: false,
   },
   {
     id: "2",
@@ -40,10 +41,11 @@ export default data = [
     quality: [],
     validationStatus: true,
     PO: "",
+    arrivingToday: false,
   },
   {
     id: "3",
-    commodity: "",
+    commodity: "potatoes",
     img: "",
     status: "",
     category: "",
@@ -61,5 +63,6 @@ export default data = [
     quality: [],
     validationStatus: true,
     PO: "",
+    arrivingToday: true,
   },
 ];
