@@ -3,6 +3,7 @@ import SignUp from "./pages/SignUp";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import OrderDetailsPage from "./pages/OrderDetailsPage";
+import OrderManagement from "./pages/OrderManagement";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { data } from "./utils/data";
 
@@ -28,6 +29,11 @@ function App() {
                 productDetails={getProduct(routerProps.match.params.id)}
               />
             )}
+          />
+          <Route
+            exact={true}
+            path="/manageorders"
+            component={OrderManagement}
           />
           {/* <SignUp /> */}
         </Switch>
