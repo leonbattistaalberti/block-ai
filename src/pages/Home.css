@@ -1,4 +1,4 @@
-.home, .orderDetailsPage{
+.home, .orderDetailsPage, .verifyOrders{
     background-color:#F5F5F5;
     height: 100vh;
     width: 80%;
@@ -24,4 +24,37 @@
     border-bottom: 2px solid rgba(256, 256, 256, 0.7);
     text-transform: capitalize;
     
+}
+
+.verifyOrders__container {
+    display:  flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.verifyOrders__container > h3 {
+    font-weight:400;
+}
+
+.verifyOrders__container__footer {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    
+}
+
+.verifyOrders__container__footer > button {
+    width: 100px;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    background-color: #5AC973;
+    color: white;
 }

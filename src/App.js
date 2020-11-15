@@ -6,6 +6,7 @@ import OrderDetailsPage from "./pages/OrderDetailsPage";
 import OrderManagement from "./pages/OrderManagement";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { data } from "./utils/data";
+import VerifyOrder from "./pages/VerifyOrder";
 
 function App() {
   function getProduct(id) {
@@ -21,7 +22,7 @@ function App() {
 
         <Switch>
           <Route exact={true} path="/" component={Home} />
-          <Route path="/home " component={Home} />
+          <Route path="/home " component={SignUp} />
           <Route
             path="/orderdetails"
             render={(routerProps) => (
@@ -36,6 +37,7 @@ function App() {
             path="/manageorders"
             component={OrderManagement}
           />
+          <Route exact={true} path="/verifyorder" component={VerifyOrder} />
           {/* <SignUp /> */}
         </Switch>
       </div>
