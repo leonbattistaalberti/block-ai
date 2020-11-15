@@ -1,5 +1,6 @@
 import React from "react";
 import "./OrderCard.css";
+import { Link } from "react-router-dom";
 
 // TODO: make the orders dynamic, using live data
 const OrderCard = (props) => {
@@ -21,10 +22,38 @@ const OrderCard = (props) => {
         </div>
         <div className="orderCard__footer__bottom">
           <button>
-            <span>Verify Order</span>
+            <Link
+              to="/verifyorder"
+              style={{ textDecoration: "none", fontSize: "x-small" }}
+            >
+              <span>Verify Order</span>
+            </Link>
           </button>
+          {props.delivery === true ? (
+            <div className="orderCard__footer__bottom__delivery">
+              <img
+                src="https://cms-assets.tutsplus.com/uploads/users/523/posts/32694/final_image/tutorial-preview-large.png"
+                width="30px"
+              />
+              <p>Delivered</p>
+            </div>
+          ) : (
+            <div className="orderCard__footer__bottom__delivery">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Cross_red_circle.svg"
+                width="30px"
+              />
+              <p>Pending</p>
+            </div>
+          )}
+
           <button>
-            <span>Order Details</span>
+            <Link
+              to="/verifyorder"
+              style={{ textDecoration: "none", fontSize: "x-small" }}
+            >
+              <span>Order Details</span>
+            </Link>
           </button>
         </div>
       </div>

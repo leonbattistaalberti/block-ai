@@ -57,3 +57,16 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .orderCard__footer__bottom > button > span {
     font-size: x-small;
 }
+
+.orderCard__footer__bottom__delivered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.orderCard__footer__bottom__delivery> p {
+    font-size: xx-small;
+    margin: 0
+}

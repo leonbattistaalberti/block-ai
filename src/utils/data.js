@@ -1,6 +1,6 @@
 export const data = [
   {
-    id: "123",
+    id: "1011566062",
     commodity: "potatoes",
     img:
       "https://assets.bonappetit.com/photos/5d7284758d926f0009df5cfc/5:4/w_3165,h_2532,c_limit/Basically-Gojuchang-Chicken-Potato.jpg",
@@ -22,11 +22,13 @@ export const data = [
     validationStatus: true,
     po: "121334563",
     arrivingToday: true,
+    delivered: true,
   },
   {
-    id: "2",
+    id: "1092790569",
     commodity: "Onions",
-    img: "",
+    img:
+      "https://media3.s-nbcnews.com/j/newscms/2020_31/1596230/red-onions-today-main-200801-02_d96ceea97fae8b3a9f06a20e1ef3cb1b.fit-2000w.jpg",
     status: "",
     category: "",
     shippedFrom: "Lombardy, Italy",
@@ -44,11 +46,13 @@ export const data = [
     validationStatus: true,
     po: "4547525456",
     arrivingToday: false,
+    delivered: false,
   },
   {
-    id: "3",
+    id: "1005446257",
     commodity: "Carrots",
-    img: "",
+    img:
+      "https://ucarecdn.com/459eb7be-115a-4d85-b1d8-deaabc94c643/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
     status: "",
     category: "",
     shippedFrom: "Lombardy, Italy",
@@ -66,5 +70,6 @@ export const data = [
     validationStatus: true,
     po: "2547896541",
     arrivingToday: false,
+    delivered: true,
   },
 ];

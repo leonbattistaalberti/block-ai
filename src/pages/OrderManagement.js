@@ -14,6 +14,7 @@ const OrderManagement = () => {
             name={order.commodity}
             img={order.img}
             po={order.po}
+            delivery={order.delivered}
           />
         ))}
       </div>

@@ -21,7 +21,7 @@ function App() {
 
         <Switch>
           <Route exact={true} path="/" component={Home} />
-          <Route exact={true} path="/home " component={Home} />
+          <Route path="/home " component={Home} />
           <Route
             path="/orderdetails"
             render={(routerProps) => (
